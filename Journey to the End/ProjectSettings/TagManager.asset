@@ -12,7 +12,7 @@ TagManager:
   - Water
   - UI
   - Player
-  - 
+  - Enemy
   - 
   - 
   - 
@@ -46,6 +46,12 @@ TagManager:
     locked: 0
   - name: Main Ground
     uniqueID: 2504810171
+    locked: 0
+  - name: Flowers
+    uniqueID: 63328973
+    locked: 0
+  - name: Traps
+    uniqueID: 91008943
     locked: 0
   - name: Player
     uniqueID: 1780579843
