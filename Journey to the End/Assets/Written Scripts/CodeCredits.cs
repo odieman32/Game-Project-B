@@ -4,5 +4,6 @@ using UnityEngine;
 
 public class CodeCredits : MonoBehaviour
 {
-    //https://www.youtube.com/watch?v=5EesvCG9_FA
+    //Written Script Credits: https://www.youtube.com/watch?v=U3sT-T5bKX4
+
 }

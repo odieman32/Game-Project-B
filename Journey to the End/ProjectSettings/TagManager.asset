@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Border
   layers:
   - Default
   - TransparentFX
@@ -53,6 +54,9 @@ TagManager:
     locked: 0
   - name: Traps
     uniqueID: 91008943
+    locked: 0
+  - name: Enemy
+    uniqueID: 1473805619
     locked: 0
   - name: Player
     uniqueID: 1780579843
