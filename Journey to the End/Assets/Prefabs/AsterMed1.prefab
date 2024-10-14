@@ -134,6 +134,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57ca874204f19a54d95a7498e25f7fb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerStats: {fileID: 0}
+  damage: 1
 --- !u!50 &8807702592489362774
 Rigidbody2D:
   serializedVersion: 4
