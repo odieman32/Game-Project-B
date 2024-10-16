@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameOver : MonoBehaviour
 {
     [SerializeField] GameObject gameOver;
+    [SerializeField] GameObject pauseButton;
 
     // Update is called once per frame
     void Update()
@@ -13,12 +14,18 @@ public class GameOver : MonoBehaviour
         if(GameObject.FindGameObjectWithTag("Player") == null)
         {
             gameOver.SetActive(true);
+            pauseButton.SetActive(false);
         }
     }
 
     public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void Quit()
+    {
+        SceneManager.LoadScene(0);
     }
 }
 
