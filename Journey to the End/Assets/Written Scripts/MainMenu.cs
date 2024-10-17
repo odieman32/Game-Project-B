@@ -11,11 +11,4 @@ public class MainMenu : MonoBehaviour
         //Loads the sceane corresponding by number
         SceneManager.LoadSceneAsync(1);
     }
-
-    public void QuitGame()
-    {
-        //quits out of the application and logs quit game
-        Debug.Log("Quit Game!");
-        Application.Quit();
-    }
 }
