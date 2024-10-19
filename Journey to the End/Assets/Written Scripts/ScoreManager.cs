@@ -6,10 +6,11 @@ using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour
 {
+    //Code for score
     [SerializeField] Text scoreText;
     private float score;
 
-    // Update is called once per frame
+    //Creates a continuously rising score as each second passes
     void Update()
     {
         if(GameObject.FindGameObjectWithTag("Player") != null)
@@ -20,4 +21,4 @@ public class ScoreManager : MonoBehaviour
     }
 }
 
-//Source: https://www.youtube.com/watch?v=U3sT-T5bKX4
+//Source: https://www.youtube.com/watch?v=U3sT-T5bKX4 by Hooson

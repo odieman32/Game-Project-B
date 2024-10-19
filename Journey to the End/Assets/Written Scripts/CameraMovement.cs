@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
+    //This Script has the camera moving to the right 
     [SerializeField] float cameraSpeed;
 
     // Update is called once per frame

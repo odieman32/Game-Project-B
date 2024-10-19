@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SpawnObstacles : MonoBehaviour
 {
-
+    //Code for Spawner
     [SerializeField] GameObject obstacle;
     [SerializeField] float maxX;
     [SerializeField] float maxY;
@@ -15,7 +15,7 @@ public class SpawnObstacles : MonoBehaviour
 
     
 
-    // Update is called once per frame
+    //Determines Spawn time of asteroids by input
     void Update()
     {
         if(Time.time > spawnTime)
@@ -25,6 +25,7 @@ public class SpawnObstacles : MonoBehaviour
         }
     }
 
+    //Spawns the asteroids at random based on the X and Y inputs
     void Spawn()
     {
         float randomX = Random.Range(minX, maxX);
@@ -34,4 +35,4 @@ public class SpawnObstacles : MonoBehaviour
     }
 }
 
-//Source: https://www.youtube.com/watch?v=U3sT-T5bKX4s
+//Source: https://www.youtube.com/watch?v=U3sT-T5bKX4s by Hooson

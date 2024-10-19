@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class LoopingBackground : MonoBehaviour
 {
+    //This code loops the background infinitely with the camera movement
     [SerializeField] float backgroundSpeed;
     [SerializeField] Renderer backgroundRenderer;
    
@@ -15,4 +16,4 @@ public class LoopingBackground : MonoBehaviour
     }
 }
 
-//Source: https://www.youtube.com/watch?v=U3sT-T5bKX4
+//Source: https://www.youtube.com/watch?v=U3sT-T5bKX4 by Hooson

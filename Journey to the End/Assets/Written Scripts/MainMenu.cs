@@ -12,3 +12,5 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadSceneAsync(1);
     }
 }
+
+//by Brodie Detterman

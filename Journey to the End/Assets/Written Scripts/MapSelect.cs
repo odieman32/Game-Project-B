@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MapSelect : MonoBehaviour
 {
+    //This code loads the correct scene in the Map Selector panel by using Map name and their build ID
     public void OpenLevel(int mapID)
     {
         string mapName = "Map " + mapID;

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BackgroundMusic : MonoBehaviour
 {
+    //An attempt at making the background music not overlap with Main Menu, but did not work out
     private static BackgroundMusic backgroundMusic;
 
     void Awake()

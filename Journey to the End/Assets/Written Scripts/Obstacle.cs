@@ -4,14 +4,17 @@ using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
+    //Code for the asteroids
     private GameObject player;
 
-    // Start is called before the first frame update
+    //Finds the Player Game object by tag
+    
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
     }
 
+    //Causes the Player to be destroyed when hit and the asteroids to be destoryed when hit by border
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Border")
@@ -25,4 +28,4 @@ public class Obstacle : MonoBehaviour
     }
 }
 
-//Source: https://www.youtube.com/watch?v=U3sT-T5bKX4
+//Source: https://www.youtube.com/watch?v=U3sT-T5bKX4 by Hooson
